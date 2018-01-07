@@ -29,7 +29,8 @@ logging:
 
 keycloak:
   # keycloak地址
-  auth-server-url: http://localhost:8080/auth
+  #auth-server-url: http://localhost:8080/auth
+  auth-server-url: http://192.168.80.11:8080/auth
   # keycloak realm
   realm: realm
   resource: ms-content-sample
